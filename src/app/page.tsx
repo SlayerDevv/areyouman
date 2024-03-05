@@ -31,7 +31,7 @@ export default function Home() {
       <div className="flex space-x-5">
       <span className="text-xl " ><h1 id="txt">Are You Gay ?</h1></span>
       <button className="bg-blue-600 w-[60px] h-[60px] rounded-xl" id="yesbtn" onClick={() => yes()}>Yes</button>
-      <button className="absolute fixed bg-blue-600  rounded-xl md:right-[500px] md:left-[706px] left-[210px] top-[200px] w-[60px] h-[60px] " id="nobtn" onClick={() => handlemove()}>No</button>
+      <button className="absolute fixed bg-blue-600  rounded-xl md:right-[500px] md:left-[706px] left-[210px] top-[200px] w-[60px] h-[60px] " id="nobtn" onMouseMove={() => handlemove()}>No</button>
       </div>
     </div>
   );
